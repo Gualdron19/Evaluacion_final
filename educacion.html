@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-whidth, user-scalable=no">
+	<title>Hoja de vida</title>
+</head>
+<body>
+	<header>
+		<svg height="150" width="300">
+			<image xlink:href="img/logo.svg" width = "200px" height="200px"></image> 
+		</svg>
+		<h1>Hoja de Vida</h1>
+			<h2>Daniel Felipe Gualdron Orjuela</h2>
+				<h3>19 de Marzo de 1997 - Bogotá, Colombia</h3>
+	</header>
+	<nav>
+		<a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+	</nav>
+
+	<h2>Educación</h2>
+
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institución</th>
+				<th>Lugar</th>
+				<th>¿Culminó?</th>
+				<th>Titulo Obtenido</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>2000-2013</td>
+				<td>Colegio Parroquial Santa Isabel de Hungria</td>
+				<td>Bogotá</td>
+				<td>Si</td>
+				<td>Bachiller</td>
+			</tr>
+			<tr>
+				<td>2013-2018</td>
+				<td>Universidad Piloto de Colombia</td>
+				<td>Bogotá</td>
+				<td>Si</td>
+				<td>Ingeniero Mecatronico</td>
+			</tr>
+			<tr>
+				<td>2019</td>
+				<td>Next University</td>
+				<td>Bogotá</td>
+				<td>En proceso</td>
+				<td>Desarrollador Web</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<br>
+	
+	<form autocomplete="on" name="agregarEstudios">
+		<legend><h2>Agregar estudios</h2></legend>
+		<br>
+
+		<label for="anio"><strong>Año</strong></label>
+		<select>
+			<option>2013</option>
+			<option>2014</option>	
+			<option>2015</option>	
+			<option>2016</option>	
+			<option>2017</option>	
+			<option>2018</option>	
+			<option>2019</option>	
+			<option>2020</option>	
+			<option>2021</option>	
+			<option>2022</option>		
+		</select>
+		<br><br>
+		
+		<label for="institucion"><strong>Institucion</strong></label>
+		<input type="text" name="institucion" required>
+		<br><br>
+
+		<label for="lugar"><strong>Lugar<strong></label>
+		<textarea name="lugar" rows="1" cols="50"></textarea>
+		<br><br>
+
+		<input type="submit" name="enviar">
+	</form>
+
+	<footer>
+		<p><strong>Correo: </strong><a href="mailto:daniel1903.dg@gmail.com">daniel1903.dg@gmail.com</a> | <strong>Telefono:</strong> +57 316 4544216 | <strong>Dirección: </strong> Cll 45 #29 - 80</p>
+	</footer>
+</body>
+</html>
